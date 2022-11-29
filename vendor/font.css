@@ -11,8 +11,8 @@
   font-style: normal;
 }
 @font-face {
-  src: local('Inter-Black'), url(../vendor/font/Inter-Black.woff2) format('woff2');
-  font-family: 'Inter-Black';
+  src: local('Inter Black'), url(../vendor/font/Inter-Black.woff2) format('woff2');
+  font-family: 'Inter Black';
   font-weight: 900;
   font-style: normal;
 }
