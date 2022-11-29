@@ -1,0 +1,8 @@
+.intro {
+  margin: 92px auto 0;
+  max-width: 984px;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
