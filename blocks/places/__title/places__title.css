@@ -1,4 +1,6 @@
 .places__title {
+  max-width: 460px;
+  max-height: 142px;
   color: white;
   margin: 0;
   padding: 0;

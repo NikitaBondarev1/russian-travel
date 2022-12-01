@@ -5,10 +5,10 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  max-width: 1184px;  
   height: 100%;
-  position: relative;
-  max-width: 1184px;
   width: 100%;
+  position: relative;
   align-items: center;
   text-decoration: none;
 }

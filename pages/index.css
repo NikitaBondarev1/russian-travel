@@ -21,7 +21,8 @@
 @import url(../blocks/intro/__list-text/intro__list-text.css);
 @import url(../blocks/intro/__number/intro__number.css);
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__image-list/photo-grid__image-list.css);
+@import url(../blocks/photo-grid/__image-cards/photo-grid__image-cards.css);
+@import url(../blocks/photo-grid/__image-card/photo-grid__image-card.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__image/places__image.css);
