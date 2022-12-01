@@ -9,6 +9,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
   transition: opacity .5s ease;
 }
 
