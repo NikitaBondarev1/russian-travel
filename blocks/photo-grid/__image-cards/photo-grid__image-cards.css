@@ -12,6 +12,7 @@
   .photo-grid__image {
     max-width: 300px;
     max-height: 225px;
+    gap: 14px;
   }
 }
 

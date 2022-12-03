@@ -1,6 +1,13 @@
-.cover {
+.cover{
   margin: 92px auto 0;
   padding: 0 48px 0 48px;
-  max-width: 1184px;
-  height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .cover{
+    padding: 0;
+  }
 }

@@ -8,3 +8,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding-top: px;
+    padding-left: px;
+    padding-right: px;
+  }
+}
