@@ -5,8 +5,10 @@
   max-height: 1005px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1041px) {
   .lead {
     margin: 48px auto 0;
+    max-width: 928px;
+    max-height: 962px;
   }
 }

@@ -14,9 +14,9 @@
 }
 
 /*Медиазапрос для диагонали 1024 - соотношение сторон фона*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1041px) {
   .cover__background {
     max-height: 740px;
-    height: calc(100vw/1.735);
+    height: calc(100vw/1.6);
   }
 }
