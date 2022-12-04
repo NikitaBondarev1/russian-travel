@@ -10,9 +10,8 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid__image {
-    max-width: 300px;
-    max-height: 225px;
-    gap: 14px;
+    max-width: 928px;
+    max-height: 942px;
   }
 }
 

@@ -2,9 +2,10 @@
   display: grid;
   grid-gap: 48px 40px;
   grid-template-columns: 1fr 1.035fr;
+  align-content: flex-start;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1041px) {
   .places__place {
     grid-gap: 48px 32px;
   }

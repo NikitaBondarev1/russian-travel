@@ -1,14 +1,14 @@
 .intro {
-  margin: 92px auto 0;
+  margin: 92px auto 48px;
   max-width: 984px;
   color: white;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1041px) {
   .intro {
-    margin: 84px 0 0;
+    margin: 92px 0 0;
     padding-left: 48px;
   }
 }
