@@ -1,4 +1,4 @@
-.cover__background{
+.cover__background {
   max-width: 1184px;
   width: 100%;
   height: calc(100vw/1.6); /*Соотношение сторон фона*/
@@ -14,9 +14,15 @@
 }
 
 /*Медиазапрос для диагонали 1024 - соотношение сторон фона*/
-@media screen and (min-width: 1041px) {
+@media screen and (max-width: 1041px) {
   .cover__background {
     max-height: 740px;
-    height: calc(100vw/1.626);
+    height: calc(100vw/1.62);
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .cover__background {
+    max-height: 320px;
   }
 }

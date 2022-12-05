@@ -1,4 +1,4 @@
-.cover{
+.cover {
   margin: 92px auto 0;
   padding: 0 48px 0 48px;
   display: flex;
@@ -6,8 +6,25 @@
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (max-width: 1041px) {
-  .cover{
+  .cover {
+    max-height: 740px;
+    margin: 90px auto 0;
     padding: 0;
+    /*height: calc(100vw/1.6); /*Cоотношение сторон фона*/
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .cover {
+    margin: 61px auto 0;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .cover {
+    max-height: 320px;
+    margin: 66px auto 0;
   }
 }

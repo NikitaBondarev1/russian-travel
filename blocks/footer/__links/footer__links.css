@@ -2,3 +2,9 @@
   max-height: 18px;
   list-style: none;
 }
+
+@media screen and (max-width: 337px) {
+  .footer__links {
+    padding: 0 0 32px 0;
+  }
+}

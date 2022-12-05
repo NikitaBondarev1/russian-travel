@@ -11,8 +11,15 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 785px) {
   .places__place {
-    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .places__place {
+    grid-template-columns: 1fr;
+    gap: 25px;
   }
 }

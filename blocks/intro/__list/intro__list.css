@@ -1,8 +1,16 @@
 .intro__list {
+  max-width: 690px;
+  max-height: 90px;
   margin: 33px 0 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  max-width: 690px;
-  max-height: 90px;
+
+}
+
+@media screen and (max-width: 337px) {
+  .intro__list {
+    max-width: 288px;
+    margin: 34px 0 0;
+  }
 }
