@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 900px) {
   .header {
     max-width: 720px;
     max-height: 52px;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 700px) {
   .header {
     padding: 16px 16px 0 16px;
   }

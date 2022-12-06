@@ -9,7 +9,7 @@
   font-family: 'Inter Black', Arial, sans-serif;
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 700px) {
   .intro__title {
     max-width: 250px;
     max-height: 70px;

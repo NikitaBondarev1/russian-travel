@@ -5,7 +5,7 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 700px) {
   .footer__navigation {
     flex-direction: column;
   }

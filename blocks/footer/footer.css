@@ -5,16 +5,16 @@
   padding: 0 45px 24px 48px;
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 900px) {
   .footer {
     max-width: 720px;
     max-height: 18px;
-    margin: 87px auto 0;
+    margin: 78px auto 0;
     padding: 0 24px 24px 24px;
   }
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 700px) {
   .footer {
     width: 186px;
     height: 310px;

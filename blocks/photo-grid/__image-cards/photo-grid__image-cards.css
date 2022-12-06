@@ -15,14 +15,14 @@
   }
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 900px) {
   .photo-grid__image-cards {
     margin 0;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 700px) {
   .photo-grid__image-cards {
     max-width: 288px;
     gap: 12px;

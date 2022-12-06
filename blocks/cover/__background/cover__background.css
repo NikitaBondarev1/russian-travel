@@ -8,21 +8,23 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: linear-gradient(rgba(42, 44, 47, .4), rgba(42, 44, 47, .4)), url(../../../images/cover-trains.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-/*Медиазапрос для диагонали 1024 - соотношение сторон фона*/
-@media screen and (max-width: 1041px) {
-  .cover__background {
-    max-height: 740px;
-    height: calc(100vw/1.62);
-  }
+.cover__background:hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, .8); /*Прозрачность на 0.8%*/
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (min-width: 1042px) {
   .cover__background {
-    max-height: 320px;
+    object-fit: cover;
+    max-height: 740px;
+    height: calc(100vw/1.735); /*Cоотношение сторон фона + padding*/
   }
 }
