@@ -12,7 +12,15 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 785px) {
+  .lead__subtitle {
+    font-size: 4vw;
+    line-height: 4.6vw;
+  }
+}
+
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .lead__subtitle {
     max-width: 288px;
     max-height: 40px;

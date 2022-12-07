@@ -9,7 +9,8 @@
   align-content: space-between;
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .places__website {
     padding: 0 0 0 16px;
   }

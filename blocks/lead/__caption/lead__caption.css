@@ -12,13 +12,15 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .lead__caption {
     padding: 0 0 0 24px;
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .lead__caption {
     padding: 0 0 0 16px;
   }

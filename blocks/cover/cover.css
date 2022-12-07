@@ -7,22 +7,24 @@
   align-items: center;
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .cover {
     max-height: 740px;
     margin: 85px auto 0;
     padding: 0;
-    /*height: calc(100vw/1.6); /*Cоотношение сторон фона*/
   }
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .cover {
     margin: 84px auto 0;
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .cover {
     max-height: 320px;
     margin: 66px auto 0;

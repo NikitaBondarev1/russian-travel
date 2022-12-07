@@ -5,6 +5,7 @@
   padding: 0 48px 0;
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .lead {
     max-width: 928px;
@@ -13,7 +14,8 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .lead {
     max-width: 768px;
     max-height: 862px;
@@ -22,7 +24,8 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .lead {
     max-width: 320px;
     max-height: 406px;

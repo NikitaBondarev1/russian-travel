@@ -4,26 +4,26 @@
   padding: 0 48px 0 48px;
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .photo-grid {
     max-width: 928px;
-    /*max-height: 942px;*/
   }
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .photo-grid {
     max-width: 720px;
-    /*max-height: 1664px;*/
     margin: 88px auto 0;
     padding: 0 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .photo-grid {
     max-width: 288px;
-    /*max-height: 2724px;*/
     margin: 64px auto 0;
     padding: 0 16px 0 16px;
   }

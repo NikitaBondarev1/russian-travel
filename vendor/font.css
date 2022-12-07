@@ -1,22 +1,22 @@
 @font-face {
-  src: url(../vendor/font/Inter-Regular.woff) format('woff');
-  src: url(../vendor/font/Inter-Regular.woff2) format('woff2');
+  src: url(../vendor/font/Inter-Regular.woff) format('woff'),
+       url(../vendor/font/Inter-Regular.woff2) format('woff2');
   font-family: 'Inter';
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  src: url(../vendor/font/Inter-Bold.woff) format('woff');
-  src: url(../vendor/font/Inter-Bold.woff2) format('woff2');
+  src: url(../vendor/font/Inter-Bold.woff) format('woff'),
+       url(../vendor/font/Inter-Bold.woff2) format('woff2');
   font-family: 'Inter';
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  src: url(../vendor/font/Inter-Black.woff) format('woff');
-  src: url(../vendor/font/Inter-Black.woff2) format('woff2');
+  src: url(../vendor/font/Inter-Black.woff) format('woff'),
+       url(../vendor/font/Inter-Black.woff2) format('woff2');
   font-family: 'Inter Black';
   font-weight: 900;
   font-style: normal;

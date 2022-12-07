@@ -8,6 +8,7 @@
   gap: 16px;
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .photo-grid__image-cards {
     max-width: 928px;
@@ -15,14 +16,16 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .photo-grid__image-cards {
     margin 0;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .photo-grid__image-cards {
     max-width: 288px;
     gap: 12px;

@@ -1,26 +1,28 @@
 .cover__background {
   max-width: 1184px;
   width: 100%;
-  height: calc(100vw/1.6); /*Соотношение сторон фона*/
+  height: calc(100vw/1.6); /*Соотношение сторон фона + padding*/
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-image: linear-gradient(rgba(42, 44, 47, .4), rgba(42, 44, 47, .4)), url(../../../images/cover-trains.jpg);
+  background-image: linear-gradient(rgba(42, 44, 47, .4), rgba(42, 44, 47, .4)), url(../../../images/cover-trains.jpg); /*Сделает картинку темнее*/
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+/*При наведении, затемняется фон*/
 .cover__background:hover::before {
-  content: "";
+  content: ""; /*Обязательно в before*/
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: rgba(42, 44, 47, .8); /*Прозрачность на 0.8%*/
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (min-width: 1042px) {
   .cover__background {
     object-fit: cover;

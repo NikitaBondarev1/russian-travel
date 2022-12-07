@@ -6,6 +6,7 @@
   color: white;
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .intro {
     margin: 92px 0 0;
@@ -13,14 +14,16 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .intro {
     margin: 88px 0 0;
     padding: 0 0 0 24px;
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .intro {
     margin: 64px 0 0;
     padding: 0 0 0 16px;

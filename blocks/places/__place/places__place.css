@@ -5,19 +5,22 @@
   align-content: flex-start;
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .places__place {
-    grid-gap: 48px 32px;
+    grid-gap: 48px 32px; /*Отступы строки и колонки между элементами в GRID*/
   }
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .places__place {
     grid-gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .places__place {
     grid-template-columns: 1fr;
     gap: 25px;

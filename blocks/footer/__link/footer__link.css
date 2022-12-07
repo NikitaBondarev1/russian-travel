@@ -14,13 +14,15 @@
   opacity: .6;
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .footer__link {
     max-width: 50px;
   }
 }
 
-@media screen and (max-width: 700px) {
+/*Изменения для мобильных экранов*/
+@media screen and (max-width: 500px) {
   .footer__link {
     max-width: 158px;
     padding: 0;

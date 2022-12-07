@@ -4,6 +4,7 @@
   list-style-type: none;
 }
 
+/*Убирает отступы у языка "EN" в шапке*/
 .header__lang-text:last-child {
   margin: 0;
 }

@@ -9,17 +9,20 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
+/*Убирает отступы второго параграфа блока PLACES*/
 .places__paragraph:last-child {
   margin: 0;
 }
 
+/*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .places__paragraph {
     margin-bottom: 27px;
   }
 }
 
-@media screen and (max-width: 900px) {
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
   .places__paragraph {
     margin: 0 0 25px 0;
     font-size: 16px;
