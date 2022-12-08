@@ -1,16 +1,15 @@
-.intro__title {
+﻿.intro__title {
   max-width: 690px;
-  max-height: 58px;
   margin: 0;
   font-size: 54px;
   line-height: 60px;
   font-weight: 900;
   font-style: normal;
-  font-family: 'Inter Black', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .intro__title {
     max-width: 250px;
     max-height: 70px;

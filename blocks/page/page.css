@@ -1,4 +1,4 @@
-/*Стили под разные браузеры*/
+﻿/*Стили под разные браузеры*/
 .page {
   font-family: 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,4 +8,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   background-color: #2A2C2F;
+  max-width: 1280px;
+  margin: 0 auto 0;
 }

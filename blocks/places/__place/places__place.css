@@ -1,6 +1,6 @@
-.places__place {
+﻿.places__place {
   display: grid;
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
   grid-template-columns: 1fr 1.035fr;
   align-content: flex-start;
 }
@@ -8,21 +8,21 @@
 /*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .places__place {
-    grid-gap: 48px 32px; /*Отступы строки и колонки между элементами в GRID*/
+    gap: 48px 32px; /*Отступы строки и колонки между элементами в GRID*/
   }
 }
 
 /*Изменения для средних экранов*/
 @media screen and (max-width: 785px) {
   .places__place {
-    grid-gap: 48px 28px;
+    gap: 48px 28px;
   }
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .places__place {
     grid-template-columns: 1fr;
-    gap: 25px;
+    gap: 33px;
   }
 }

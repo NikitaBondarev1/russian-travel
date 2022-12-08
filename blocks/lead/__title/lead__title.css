@@ -1,4 +1,4 @@
-.lead__title {
+﻿.lead__title {
   max-width: 720px;
   max-height: 200px;
   margin: 0 auto;
@@ -8,40 +8,17 @@
   font-weight: 900;
   text-align: center;
   color: white;
-  font-family: 'Inter Black', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 /*Уменьшение titile при уменьшении/увеличении экрана*/
 @media screen and (min-width: 320px) and (max-width: 785px) {
   .lead__title {
      /*max ширина экрана 1280 (+17 скроллбар) / на max размер шрифта = 1297/96=13.5*/
-     /*методом исключения подогнал приблизительный размер шрифта по макету = 12.5*/
-    font-size: 12.5vw;
+     /*методом исключения подогнал приблизительный размер шрифта по макету = 12.3*/
+    font-size: 12.3vw;
     /*line-height -- 1297/100=12.9*/
      /*методом исключения подогнал приблизительный межстрочный интервал по макету = 13*/
-    line-height: 13vw;
+    line-height: 13.2vw;
   }
 }
-
-/*Изменения для десктопа/ноутбуков*/
-/*@media screen and (max-width: 1041px) {
-  .lead__title {
-    max-width: 720px;
-    max-height: 200px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-  }
-}*/
-
-/*Изменения для мобильных экранов*/
-/*@media screen and (max-width: 500px) {
-  .lead__title {
-    max-width: 288px;
-    max-height: 88px;
-    font-size: 40px;
-    line-height: 44px;
-  }
-}*/

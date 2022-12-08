@@ -1,4 +1,4 @@
-.photo-grid__image-cards {
+﻿.photo-grid__image-cards {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -25,7 +25,7 @@
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .photo-grid__image-cards {
     max-width: 288px;
     gap: 12px;

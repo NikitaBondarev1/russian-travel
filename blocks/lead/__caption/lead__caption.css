@@ -1,4 +1,4 @@
-.lead__caption {
+﻿.lead__caption {
   max-height: 14px;
   max-width: 160px;
   margin: 5px 0 0;
@@ -20,7 +20,7 @@
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .lead__caption {
     padding: 0 0 0 16px;
   }

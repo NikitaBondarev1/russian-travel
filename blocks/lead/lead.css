@@ -1,4 +1,4 @@
-.lead {
+﻿.lead {
   max-width: 984px;
   max-height: 1005px;
   margin: 56px auto 0;
@@ -25,10 +25,10 @@
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 340px) {
   .lead {
-    max-width: 320px;
+    min-width: 320px;
     max-height: 406px;
-    margin: 49px auto 0;
+    margin: 49px 0 0;
   }
 }

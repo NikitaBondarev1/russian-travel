@@ -1,4 +1,4 @@
-.header {
+﻿.header {
   max-width: 1184px;
   max-height: 52px;
   margin: 0 auto;
@@ -17,7 +17,7 @@
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .header {
     padding: 16px 16px 0 16px;
   }

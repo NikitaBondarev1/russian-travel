@@ -1,10 +1,10 @@
-.footer__links {
+﻿.footer__links {
   max-height: 18px;
   list-style: none;
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
   .footer__links {
     padding: 0 0 32px 0;
   }

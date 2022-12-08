@@ -1,4 +1,4 @@
-.header__lang-link {
+﻿.header__lang-link {
   max-width: 30px;
   max-height: 28px;
   margin: 0;
@@ -17,7 +17,7 @@
 }
 
 /*Изменения для мобильных экранов*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .header__lang-link {
     max-width: 22px;
     max-height: 20px;

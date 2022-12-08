@@ -10,7 +10,7 @@
 }
 
 /*Изменения для средних экранов*/
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 640px) {
   .places__website {
     padding: 0 0 0 16px;
   }
