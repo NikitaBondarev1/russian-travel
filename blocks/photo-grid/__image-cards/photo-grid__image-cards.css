@@ -19,7 +19,7 @@
 /*Изменения для средних экранов*/
 @media screen and (max-width: 785px) {
   .photo-grid__image-cards {
-    margin 0;
+    margin: 0;
     max-width: 720px;
   }
 }
