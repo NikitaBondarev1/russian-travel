@@ -1,6 +1,6 @@
 ﻿.intro__list {
   max-width: 690px;
-  max-height: 90px;
+  min-height: 90px;
   margin: 33px 0 0;
   padding: 0;
   display: flex;

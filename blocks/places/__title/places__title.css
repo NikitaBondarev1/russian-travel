@@ -1,6 +1,5 @@
 ﻿.places__title {
   max-width: 460px;
-  max-height: 152px;
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -10,14 +9,6 @@
   text-align: left;
   color: white;
   font-family: 'Inter', Arial, sans-serif;
-}
-
-/*Изменения для десктопа/ноутбуков*/
-@media screen and (max-width: 1041px) {
-  .places__title {
-    font-size: 72px;
-    line-height: 76px;
-  }
 }
 
 /*Изменения для средних экранов*/

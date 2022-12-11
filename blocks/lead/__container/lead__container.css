@@ -6,7 +6,14 @@
 /*Изменения для десктопа/ноутбуков*/
 @media screen and (max-width: 1041px) {
   .lead__container {
-    margin: 56px 0 0;
+    margin: 66px 0 0;
+  }
+}
+
+/*Изменения для средних экранов*/
+@media screen and (max-width: 785px) {
+  .lead__container {
+    margin: 48px 0 0;
   }
 }
 

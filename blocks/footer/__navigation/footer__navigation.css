@@ -1,13 +1,14 @@
-﻿.footer__navigation {
+﻿.footer__list {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 /*Изменения для мобильных экранов*/
 @media screen and (max-width: 730px) {
-  .footer__navigation {
+  .footer__list {
     flex-direction: column;
+    align-items: flex-start;
   }
 }

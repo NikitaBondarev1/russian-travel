@@ -1,6 +1,6 @@
 ﻿.cover__subtitle {
   max-width: 360px;
-  max-height: 66px;
+  min-height: 66px;
   margin: 32px auto 0;
   padding: 0;
   position: relative;
@@ -16,7 +16,7 @@
 /*Изменения для мобильных экранов*/
 @media screen and (max-width: 540px) {
   .cover__subtitle {
-    width: 256px;
+    max-width: 256px;
     margin: 16px auto 0;
     font-size: 14px;
     line-height: 16px;

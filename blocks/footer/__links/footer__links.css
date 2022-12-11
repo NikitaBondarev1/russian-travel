@@ -1,5 +1,5 @@
 ﻿.footer__links {
-  max-height: 18px;
+  min-height: 18px;
   list-style: none;
 }
 
