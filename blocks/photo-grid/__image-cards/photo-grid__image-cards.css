@@ -1,6 +1,7 @@
 ﻿.photo-grid__image-cards {
   margin: 0;
-  padding: 0;
+  margin-top: 78px;
+  padding: 0 48px 0 48px;
   list-style-type: none;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
@@ -12,6 +13,9 @@
 @media screen and (max-width: 1041px) {
   .photo-grid__image-cards {
     max-width: 928px;
+    grid-template-rows: repeat(4, 1fr);  /*Строчное поведение GRID*/
+    grid-template-columns: repeat(3, 1fr);  /*Поведение колонок GRID*/
+    gap: 14px;  /*Общий отступ между элементами*/
     /*max-height: 942px;  (не выставлять данное значение для GRID)*/
   }
 }
@@ -20,6 +24,10 @@
 @media screen and (max-width: 785px) {
   .photo-grid__image-cards {
     max-width: 720px;
+    padding: 0 24px 0 24px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }
 
@@ -27,6 +35,9 @@
 @media screen and (max-width: 540px) {
   .photo-grid__image-cards {
     max-width: 288px;
+    padding: 0 16px 0 16px;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 12px;
   }
 }
