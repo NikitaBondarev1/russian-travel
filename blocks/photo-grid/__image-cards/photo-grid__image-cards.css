@@ -1,6 +1,6 @@
 ﻿.photo-grid__image-cards {
   margin: 0;
-  margin-top: 78px;
+  margin-top: 92px;
   padding: 0 48px 0 48px;
   list-style-type: none;
   display: grid;
@@ -23,6 +23,7 @@
 /*Изменения для средних экранов*/
 @media screen and (max-width: 785px) {
   .photo-grid__image-cards {
+    margin-top: 88px;
     max-width: 720px;
     padding: 0 24px 0 24px;
     grid-template-rows: repeat(6, 1fr);
