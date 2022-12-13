@@ -19,7 +19,7 @@
 /*Изменения для средних экранов*/
 @media screen and (max-width: 785px) {
   .cover {
-    margin: 84px auto 0;
+    margin: 90px auto 0;
   }
 }
 
@@ -27,6 +27,6 @@
 @media screen and (max-width: 540px) {
   .cover {
     max-height: 320px;
-    margin: 70px auto 0;
+    margin: 66px auto 0;
   }
 }

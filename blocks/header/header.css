@@ -19,6 +19,7 @@
 /*Изменения для мобильных экранов*/
 @media screen and (max-width: 540px) {
   .header {
+    min-height: 42px;
     padding: 16px 16px 0 16px;
   }
 }
